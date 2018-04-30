@@ -28,7 +28,7 @@ CLEAN = *.o *.bin *.elf *.hex
 CC = avr-gcc
 OBJCOPY = avr-objcopy
 MCU = atmega328p
-CFLAGS = -mmcu=$(MCU) -Wall -g -Os -lm  -mcall-prologues  -I./lib  -I${CXPATH}/lib
+CFLAGS = -mmcu=$(MCU) -Wall -g -Os -lm  -mcall-prologues  -I./lib
 LDFLAGS = -mmcu=$(MCU) -Wall -g -Os
 SYMBOLS = -DF_CPU=16000000UL
 
