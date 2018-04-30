@@ -7,7 +7,7 @@
 
 int main() {
 	// Set pin #5 of port B as output
-    DDRB = DDRB | (1 << PB5);
+	DDRB = DDRB | (1 << PB5);
     
 	while(1) {
         // led on
