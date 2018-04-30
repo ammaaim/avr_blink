@@ -10,12 +10,12 @@ int main() {
 	DDRB = DDRB | (1 << PB5);
     
 	while(1) {
-        // led on
-        PORTB = 0xff;
+        	// led on
+	        PORTB = 0xff;
 		_delay_ms(HALF_PERIOD_MS);
         
-        // led off
-        PORTB = 0x00;
+        	// led off
+	        PORTB = 0x00;
 		_delay_ms(HALF_PERIOD_MS);
 	}
 	
